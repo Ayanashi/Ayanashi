@@ -14,13 +14,15 @@ jobs:
     
     steps:
       - name: Checkout repository
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8
+        uses: actions/checkout@v3
       
+      - name: Start WakaTime update
+        run: echo "Starting WakaTime update..."
+
       - name: Update README with WakaTime Stats
-        uses: athul/waka-readme@8539bedb8277066fc9fe1b47d1f9b108eb866494
+        uses: athul/waka-readme@v1.1.0
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          # Configurazioni opzionali
           SHOW_TITLE: true
           SECTION_NAME: waka
           TIME_RANGE: last_7_days
