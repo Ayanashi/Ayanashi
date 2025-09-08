@@ -18,9 +18,7 @@
 
 ## 📈 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ayanashi&amp;show_icons=true&amp;theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ayanashi&amp;layout=compact&amp;theme=radical)
+![Stats](https://github-readme-stats.vercel.app/api?username=Ayanashi&show_icons=true&theme=radical
 
 ---
 
