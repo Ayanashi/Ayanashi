@@ -26,7 +26,7 @@
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Ayanashi&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayanashi&layout=compact&theme=radical&hide=html,css" alt="Top Languages" />
+ <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayanashi&layout=compact&theme=radical&hide=html,css&langs_count=10&no_cache=true" alt="Top Languages" />
 </div>
 
 ---
