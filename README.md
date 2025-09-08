@@ -26,7 +26,7 @@
 
 <div align="center">
   
-[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-%2338B2AC.svg?style=for-the-badge&logo=chart-dot&logoColor=white)](https://your-username.github.io/stats-dashboard/)
+[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-%2338B2AC.svg?style=for-the-badge&logo=chart-dot&logoColor=white)](https://Ayanashi.github.io/stats-dashboard/)
 
 </div> 
 
