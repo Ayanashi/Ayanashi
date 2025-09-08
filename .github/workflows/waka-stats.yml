@@ -2,25 +2,33 @@ name: WakaTime Stats Update
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Esegue ogni giorno a mezzanotte UTC
-  workflow_dispatch:       # Permette l'attivazione manuale
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   update-readme:
-    name: Update Readme with WakaTime Metrics
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-      
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8  # SHA di checkout v3
+
       - name: Start WakaTime update
-        run: echo "Starting WakaTime update..."
+        run: echo "🚀 Starting WakaTime update..."
+
+      - name: Check WakaTime API Key
+        run: |
+          if [ -z "${{ secrets.WAKATIME_API_KEY }}" ]; then
+            echo "❌ WakaTime API Key not found!"
+            exit 1
+          else
+            echo "✅ WakaTime API Key found"
+          fi
 
       - name: Update README with WakaTime Stats
-        uses: athul/waka-readme@v1.1.0
+        uses: athul/waka-readme@8539bedb8277066fc9fe1b47d1f9b108eb866494  # SHA di v1.1.0
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TITLE: true
@@ -31,7 +39,7 @@ jobs:
           SHOW_TOTAL: true
           BLOCKS: "->"
           IGNORED_LANGUAGES: "YAML JSON TOML"
-          
+
       - name: Commit and Push changes
         run: |
           git config --local user.email "action@github.com"
