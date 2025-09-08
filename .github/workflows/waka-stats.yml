@@ -38,7 +38,7 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TITLE: true
           SECTION_NAME: waka
-          TIME_RANGE: last_7_days
+          TIME_RANGE: all_time
           LANG_COUNT: 5
           SHOW_TIME: true
           SHOW_TOTAL: true
@@ -46,8 +46,8 @@ jobs:
           IGNORED_LANGUAGES: "YAML JSON TOML"
       
         # 5️⃣ Commit e push solo se ci sono cambiamenti
-      - name: Commit and Push changes if any
-        run: |
+        - name: Commit and Push changes if any
+          run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
