@@ -1,16 +1,16 @@
-# 👾 Hi, I’m **Ayanashi**
+# 👾 Welcome to My GitHub Profile: **Ayanashi**
 
 > _"Hacking is about understanding, not destroying."_
 
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=4000&pause=1000&color=F70000&width=435&lines=Self-taught+Pentester;Arch+Linux+Enthusiast;Homelab+Builder" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=4000&pause=1000&color=F70000&width=500&lines=Self-taught+Pentester;Arch+Linux+Enthusiast;Homelab+Builder" alt="Typing SVG" />
 </div>
 
 ---
 
-## 🧰 **My Toolbox**
+## 🧰 **My Tech Arsenal**
 
 ### 🖥️ **Operating Systems & Environments**
 
@@ -45,7 +45,7 @@
 
 ---
 
-## 📈 **GitHub Stats**
+## 📊 **GitHub Stats**
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Ayanashi&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats" />
@@ -54,7 +54,7 @@
 
 ---
 
-## 🎯 **Activity Graph**
+## 🌟 **Activity Graph**
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ayanashi&theme=radical" alt="Activity Graph" />
@@ -62,7 +62,7 @@
 
 ---
 
-## 🚀 **What I’m Up To**
+## 🚀 What I’m Up To
 
 - 🧪 Exploring **Hack The Box** (Blue Team & Pentesting paths)
 - 📡 Building a **SIEM homelab** with Suricata
