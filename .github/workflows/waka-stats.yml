@@ -1,43 +1,39 @@
-name: Waka Readme
+name: WakaTime Stats Update
 
 on:
-  # for manual workflow trigger
-  workflow_dispatch:
   schedule:
-    # runs at 12 AM UTC (5:30 AM IST)
-    - cron: "0 0 * * *"
+    - cron: '0 0 * * *'  # Esegue ogni giorno a mezzanotte UTC :cite[7]
+  workflow_dispatch:       # Permette l'attivazione manuale :cite[4]
 
 jobs:
   update-readme:
-    name: WakaReadme DevMetrics
+    name: Update Readme with WakaTime Metrics
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Necessario per push delle modifiche :cite[4]
+    
     steps:
-        # this action name
-      - uses: athul/waka-readme@master # do NOT replace with anything else
+      - name: Checkout repository
+        uses: actions/checkout@v4  # Azione ufficiale GitHub :cite[3]
+        
+      - name: Update README with WakaTime Stats
+        uses: athul/waka-readme@master  # Usa il branch master :cite[4]
         with:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }} # optional if on profile readme
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # required
-          ### meta
-          API_BASE_URL: https://wakatime.com/api # optional
-          REPOSITORY: YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME # optional
-          ### content
-          SHOW_TITLE: true # optional
-          SECTION_NAME: waka # optional
-          BLOCKS: -> # optional
-          CODE_LANG: rust # optional
-          TIME_RANGE: all_time # optional
-          LANG_COUNT: 10 # optional
-          SHOW_TIME: true # optional
-          SHOW_TOTAL: true # optional
-          SHOW_MASKED_TIME: false # optional
-          STOP_AT_OTHER: true # optional
-          IGNORED_LANGUAGES: YAML JSON TOML # optional
-          ### commit
-          COMMIT_MESSAGE: Updated waka-readme graph with new metrics # optional
-          TARGET_BRANCH: master # optional
-          TARGET_PATH: README.md # optional
-          COMMITTER_NAME: GitHubActionBot # optional
-          COMMITTER_EMAIL: action-bot@github.com # optional
-          AUTHOR_NAME: YOUR_NAME # optional
-          AUTHOR_EMAIL: YOUR@EMAIL.com # optional
-          # you can populate email-id with secrets instead
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}  # Obbligatorio :cite[4]
+          # Configurazioni opzionali :cite[4]
+          SHOW_TITLE: true
+          SECTION_NAME: waka
+          TIME_RANGE: last_7_days
+          LANG_COUNT: 5
+          SHOW_TIME: true
+          SHOW_TOTAL: true
+          BLOCKS: "->"
+          IGNORED_LANGUAGES: "YAML JSON TOML"
+          
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Updated WakaTime stats" || echo "No changes to commit"
+          git push
