@@ -24,11 +24,7 @@
 
 ## 📊 **Stats**
 
-<div align="center">
-  
-[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-%2338B2AC.svg?style=for-the-badge&logo=chart-dot&logoColor=white)](https://ayanashi.github.io/stats-dashboard/)
-
-</div> 
+ [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ayanashi&layout=compact&theme=radical&hide_border=true)](https://github.com/Ayanashi)
 
 ---
 
