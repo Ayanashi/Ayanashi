@@ -25,9 +25,10 @@
 ## 📊 **Stats**
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ayanashi&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats" />
- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayanashi&layout=compact&theme=radical&hide=html,css&langs_count=10&no_cache=true" alt="Top Languages" />
-</div>
+  
+[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-%2338B2AC.svg?style=for-the-badge&logo=chart-dot&logoColor=white)](https://your-username.github.io/stats-dashboard/)
+
+</div> 
 
 ---
 
