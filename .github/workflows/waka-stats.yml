@@ -44,13 +44,19 @@ jobs:
           SHOW_TOTAL: true
           BLOCKS: "->"
           IGNORED_LANGUAGES: "YAML JSON TOML"
+      
+        # 5️⃣ Commit e push solo se ci sono cambiamenti
+      - name: Commit and Push changes if any
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
 
-      # 5️⃣ Commit e push dei cambiamenti
-      - name: Commit and Push changes
-      run: |
-       git config --local user.email "action@github.com"
-       git config --local user.name "GitHub Action"
-       git add README.md
-       git commit -m "Updated WakaTime stats" || echo "No changes to commit"
-       git pull --rebase origin main || true
-       git push origin main
+          # Controlla se ci sono modifiche
+          if git diff --quiet; then
+            echo "ℹ️ No changes detected, skipping commit."
+          else
+            git add README.md
+            git commit -m "Updated WakaTime stats"
+            git push
+            echo "✅ README updated and pushed!"
+          fi
