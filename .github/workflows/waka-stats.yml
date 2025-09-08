@@ -2,8 +2,8 @@ name: WakaTime Stats Update
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Esegue ogni giorno a mezzanotte UTC
-  workflow_dispatch:       # Permette l'attivazione manuale
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   update-readme:
@@ -13,17 +13,16 @@ jobs:
       contents: write
     steps:
       - name: Checkout
-        uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab  # v3.5.2
+        uses: actions/checkout@v4  # Usa la versione più recente
         
       - name: Update README with WakaTime Stats
-        uses: athul/waka-readme@d3a214cce44dda21a17ce5d1f9735d6cf0f83a79  # Commit recente
+        uses: athul/waka-readme@master  # Prova con il branch master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TITLE: "true"
           SHOW_TIME: "true"
           LANG_COUNT: "5"
           TIME_RANGE: "last_7_days"
-          SHOW_MASKED_TIME: "false"
           
       - name: Commit and Push
         run: |
