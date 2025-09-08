@@ -9,12 +9,14 @@ jobs:
   update-readme:
     name: Update Readme with WakaTime Metrics
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab  # v3.5.2
         
       - name: Update README with WakaTime Stats
-        uses: athul/waka-readme@master
+        uses: athul/waka-readme@d3a214cce44dda21a17ce5d1f9735d6cf0f83a79  # Commit recente
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TITLE: "true"
