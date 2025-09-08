@@ -18,9 +18,9 @@
 
 ## 📈 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ayanashi&show_icons=true&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ayanashi&show_icons=true&theme=radical&include_all_commits=true&count_private=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ayanashi&layout=compact&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ayanashi&layout=compact&theme=radical&hide=html,css)
 
 ## 🎯 Activity Graph
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Ayanashi&theme=redical)
