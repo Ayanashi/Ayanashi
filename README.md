@@ -18,13 +18,11 @@
 
 ## 📈 GitHub Stats
 
-<!-- Streak Stats -->
-![Streak](https://streak-stats.demolab.com?user=Ayanashi&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ayanashi&show_icons=true&theme=radical)
 
-<!-- Trophy -->
-![Trophy](https://github-profile-trophy.vercel.app/?username=Ayanashi&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ayanashi&layout=compact&theme=radical)
 
-<!-- Activity Graph -->
+## 🎯 Activity Graph
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Ayanashi&theme=redical)
 
 ---
