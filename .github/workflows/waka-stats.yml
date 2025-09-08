@@ -2,38 +2,23 @@ name: WakaTime Stats Update
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Esegue ogni giorno a mezzanotte UTC :cite[7]
-  workflow_dispatch:       # Permette l'attivazione manuale :cite[4]
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   update-readme:
     name: Update Readme with WakaTime Metrics
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Necessario per push delle modifiche :cite[4]
-    
+      contents: write
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4  # Azione ufficiale GitHub :cite[3]
-        
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+      
       - name: Update README with WakaTime Stats
-        uses: athul/waka-readme@master  # Usa il branch master :cite[4]
+        uses: athul/waka-readme@ceb6d5bce5cbe6f2e6aad52ff1a75c6991e7b5a3 # Commit recente
         with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}  # Obbligatorio :cite[4]
-          # Configurazioni opzionali :cite[4]
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TITLE: true
-          SECTION_NAME: waka
           TIME_RANGE: last_7_days
           LANG_COUNT: 5
-          SHOW_TIME: true
-          SHOW_TOTAL: true
-          BLOCKS: "->"
-          IGNORED_LANGUAGES: "YAML JSON TOML"
-          
-      - name: Commit and Push changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add README.md
-          git commit -m "Updated WakaTime stats" || echo "No changes to commit"
-          git push
