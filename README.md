@@ -23,9 +23,13 @@
 ---
 
 ## 📊 **Stats**
+</div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Ayanashi&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats" />
 
- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ayanashi&layout=compact&theme=radical&hide_border=true)](https://github.com/Ayanashi)
+</div>
+<!--START_SECTION:waka-->
 
+<!--END_SECTION:waka-->
 ---
 
 ## 🌟 **Activity**
