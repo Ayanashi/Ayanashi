@@ -14,9 +14,9 @@
 
 | **Category**            | **Tools / Skills**                                                                                                          |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| **Operating Systems**   | ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white) ![Hyprland](https://img.shields.io/badge/Hyprland-%23000000.svg?style=for-the-badge&logo=linux&logoColor=white) ![BSPWM](https://img.shields.io/badge/BSPWM-%23000000.svg?style=for-the-badge&logo=linux&logoColor=white) |
+| **Operating Systems**   | ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white) <img src="https://raw.githubusercontent.com/Hyprland/Hyprland/main/assets/logo.png" alt="Hyprland" height="28" /> <img src="https://raw.githubusercontent.com/baskerville/bspwm/master/doc/logo/logo.svg" alt="BSPWM" height="28" /> |
 | **Pentesting Tools**    | ![Hack The Box](https://img.shields.io/badge/Hack_The_Box-111927?style=for-the-badge&logo=hack-the-box&logoColor=9FEF00) ![CTF](https://img.shields.io/badge/CTFs-%23E44D26.svg?style=for-the-badge&logo=hackerone&logoColor=white) ![Scapy](https://img.shields.io/badge/Scapy-%231572B6.svg?style=for-the-badge&logo=python&logoColor=yellow) ![Suricata](https://img.shields.io/badge/Suricata-%23FF6C37.svg?style=for-the-badge&logo=suricata&logoColor=white) |
-| **Programming**         | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white) ![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white) ![Perl](https://img.shields.io/badge/Perl-39457E?style=for-the-badge&logo=perl&logoColor=white) ![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white) |
+| **Programming**         | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white) ![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white) ![Perl](https://img.shields.io/badge/Perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white) ![Lua](https://img.shields.io/badge/Lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white) |
 | **DevOps**              | ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![VirtualBox](https://img.shields.io/badge/VirtualBox-%23183A61.svg?style=for-the-badge&logo=virtualbox&logoColor=white) ![Btrfs](https://img.shields.io/badge/Btrfs-%23CDCDCD.svg?style=for-the-badge&logo=linux&logoColor=black) |
 
 ---
@@ -41,7 +41,8 @@
 
 ## 🚀 **Current Projects**
 
-- 🧪 Exploring **Hack The Box** (Blue Team & Pentesting paths)  
+- 🛡️ Deep dive into **Red Teaming** & **Blue Teaming** strategies  
+- 🛠️ Developing custom **pentesting tools** (automation, exploits, network analysis)  
 - 📡 Building a **SIEM homelab** with Suricata  
 - 🎮 Experimenting with **space & sandbox simulators**  
 - 🎨 Learning **photography** (landscapes, macro, night shots)  
