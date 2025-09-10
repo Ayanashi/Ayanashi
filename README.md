@@ -36,6 +36,18 @@
 </div>
 <!--START_SECTION:waka-->
 
+```txt
+From: 07 August 2024 - To: 09 September 2025
+
+Total Time: 19 hrs 34 mins
+
+Lua           9 hrs 35 mins   >>>>>>>>>>>>-------------   46.60 %
+Python        2 hrs 46 mins   >>>----------------------   13.45 %
+hyprlang      1 hr 59 mins    >>-----------------------   09.67 %
+sh            1 hr 16 mins    >>-----------------------   06.18 %
+Other         1 hr            >------------------------   04.87 %
+```
+
 <!--END_SECTION:waka-->
 
 ---
