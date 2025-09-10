@@ -64,9 +64,9 @@ Other         1 hr            >------------------------   04.87 %
 ## 📬 **Get In Touch**
 
 <div align="center">
-  <a href="https://twitter.com/YourHandle" target="_blank"><img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" alt="Twitter" /></a>
-  <a href="https://yourwebsite.com" target="_blank"><img src="https://img.shields.io/badge/Website-%23FF5722.svg?style=for-the-badge&logo=Google-Chrome&logoColor=white" alt="Website" /></a>
-  <a href="mailto:your.email@example.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://infosec.exchange/@ayanashi" target="_blank">
+    <img src="https://img.shields.io/badge/Mastodon-3088D4?style=for-the-badge&logo=Mastodon&logoColor=white" alt="Mastodon" />
+  </a>
 </div>
 
 ---
