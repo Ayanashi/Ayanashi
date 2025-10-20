@@ -30,11 +30,14 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 10 October 2025 - To: 17 October 2025
+From: 11 October 2025 - To: 18 October 2025
 
-Total Time: 30 mins
+Total Time: 1 hr 18 mins
 
-Lua   30 mins         █████████████████████████   100.00 %
+Lua      43 mins         ████████████▓░░░░░░░░░░░░   51.22 %
+Python   32 mins         █████████▒░░░░░░░░░░░░░░░   37.88 %
+Other    6 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   07.95 %
+JSON     2 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.95 %
 ```
 
 <!--END_SECTION:waka-->
