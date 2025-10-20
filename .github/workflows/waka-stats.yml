@@ -43,7 +43,7 @@ jobs:
           SHOW_TIME: false
           SHOW_TOTAL: true
           BLOCKS: "░▒▓█"
-          IGNORED_LANGUAGES: " "
+          IGNORED_LANGUAGES: false
       
       # 5️⃣ Commit e push solo se ci sono cambiamenti
       - name: Commit and Push changes if any
