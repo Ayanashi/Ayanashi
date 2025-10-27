@@ -41,7 +41,7 @@ jobs:
           TIME_RANGE: last_7_days
           LANG_COUNT: 8
           SHOW_TIME: false
-          SHOW_TOTAL: true
+          SHOW_TOTAL: false
           BLOCKS: "░▒▓█"
           IGNORED_LANGUAGES: false
       
