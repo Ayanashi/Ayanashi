@@ -31,10 +31,9 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 27 March 2026 - To: 03 April 2026
+From: 28 March 2026 - To: 04 April 2026
 
-Lua                      █████████████████████▓░░░   87.17 %
-Python                   ███▒░░░░░░░░░░░░░░░░░░░░░   12.83 %
+Lua                   █████████████████████████   100.00 %
 ```
 
 <!--END_SECTION:waka-->
